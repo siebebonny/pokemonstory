@@ -18,4 +18,48 @@ body#background {
 #banner {
 	width: 100%;
 }
-
+.bar {
+	width: 100%;
+	background-color: rgb(247,218,92);	
+}
+.bar p {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	/* volgende drie regels enkel nodig voor mijn eigen BuyMeACoffee */
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+.paragraaf {
+	text-indent: 50px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid rgba(127, 127, 127, 0.5);
+	padding: 10px;
+}
+.rechts {
+	text-align: right;
+}
+.type {
+	text-align: center;
+}
+.type img {
+	width: 20px;
+	color: black;
+}
+.afbeelding {
+	text-align: center;
+}
+.afbeelding img {
+	width: 40px;
+}
+li img {
+	width: 16px;
+	height: 16px;
+}
